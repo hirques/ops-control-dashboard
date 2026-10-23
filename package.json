@@ -1,0 +1,27 @@
+{
+  "name": "ops-control-dashboard",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "An interactive infrastructure operations dashboard with clearly labeled sample data.",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "preview": "vite preview",
+    "typecheck": "tsc -b",
+    "test": "vitest run"
+  },
+  "dependencies": {
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1"
+  },
+  "devDependencies": {
+    "@types/node": "^22.15.0",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.0.0",
+    "@vitejs/plugin-react": "^6.1.2",
+    "typescript": "^5.8.3",
+    "vite": "^8.3.4",
+    "vitest": "^4.0.0"
+  }
+}
